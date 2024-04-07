@@ -156,7 +156,7 @@ REST_FRAMEWORK = {
 
 CORS_ALLOW_CREDENTIALS = True  # 允许跨域时携带Cookie，默认为False
 # CORS_ORIGIN_ALLOW_ALL = True  # 所有ip都可以访问后端接口
-# CORS_ORIGIN_WHITELIST = ["http://127.0.0.1:8080",]  # 指定能够访问后端接口的ip或域名列表
+CORS_ORIGIN_WHITELIST = ["https://vue.eilhyo.com",]  # 指定能够访问后端接口的ip或域名列表
 # 允许访问的请求方法
 CORS_ALLOW_METHODS = (
     'DELETE',
